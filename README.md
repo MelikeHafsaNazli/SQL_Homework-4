@@ -1,5 +1,7 @@
 # SQL_Homework-4
 
+Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+
 1. film tablosunda bulunan replacement_cost sütununda bulunan birbirinden farklı değerleri sıralayınız.
 
          SELECT DISTINCT replacement_cost FROM film;
@@ -20,4 +22,4 @@
 
        SELECT COUNT(*) FROM city WHERE city ILIKE '%R';
 
-## patika.dev linki: https://app.patika.dev/melikehafsa
+### patika.dev linki: https://app.patika.dev/melikehafsa
